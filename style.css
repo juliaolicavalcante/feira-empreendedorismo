@@ -11,7 +11,7 @@
     --branco: #fff;
     --preto: #000;
     --cor--fundo--profissao1:#ba9b29;
-    --cor--fundo--profissao1:#edc742;
+    --cor--fundo--profissao2:#edc742;
 }
 
 body {
@@ -89,7 +89,12 @@ header h1 {
     top: 60%;
 }
 
-.profissoes{
+.profissoes1{
     background-color: var(--cor--fundo--profissao1);
+    width: 85%;
+}
+
+.profissoes2{
+    background-color: var(--cor--fundo--profissao2);
     width: 85%;
 }
