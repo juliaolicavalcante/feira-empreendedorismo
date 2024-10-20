@@ -7,7 +7,7 @@
 :root{
     --letra:#332920;
     --fundo:#af7754;
-
+    --cor--botao:#7a533b;
 }
 body{
     background-color: var(--fundo);
@@ -40,7 +40,7 @@ header img{
 header button{
     width: 80%;
     height: 50px;
-    background-color: #8b5c2f;
+    background-color:var(--cor--botao);
     border-radius: 20px;
     color: var(--letra);
     font-weight: bold;
@@ -48,7 +48,7 @@ header button{
     cursor: pointer;
     font-size: 22px;
     font-family: "Open Sans", sans-serif;
-    
+
 }
 
 header h1{
