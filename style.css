@@ -89,6 +89,10 @@ header h1 {
     top: 60%;
 }
 
+.profissao{
+    display: flex;
+}
+
 .profissoes1{
     background-color: var(--cor--fundo--profissao1);
     width: 85%;
