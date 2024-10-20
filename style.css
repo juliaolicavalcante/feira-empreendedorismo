@@ -10,6 +10,8 @@
     --cor--botao: #7a533b;
     --branco: #fff;
     --preto: #000;
+    --cor--fundo--profissao1:#ba9b29;
+    --cor--fundo--profissao1:#edc742;
 }
 
 body {
@@ -85,4 +87,8 @@ header h1 {
     position: absolute;
     right: 15%;
     top: 60%;
+}
+
+.profissoes{
+    background-color: var(--cor--fundo--profissao1);
 }
