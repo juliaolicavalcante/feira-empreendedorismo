@@ -4,10 +4,11 @@
 }
 :root{
     --letra:#332920;
+    --fundo:#af7754;
     
 }
 body{
-    background-color: #af7754;
+    background-color: var(--fundo);
 }
 header{
     display: grid;
