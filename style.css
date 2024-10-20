@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +7,11 @@
 :root{
     --letra:#332920;
     --fundo:#af7754;
-    
+
 }
 body{
     background-color: var(--fundo);
+    font-family: ;
 }
 header{
     display: grid;
