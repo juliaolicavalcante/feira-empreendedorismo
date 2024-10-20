@@ -21,3 +21,7 @@ header{
     align-items: center;
     margin-right: 20px;
 }
+
+header img{
+    margin-left: 15px;
+}
