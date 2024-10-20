@@ -64,7 +64,7 @@ header h1 {
 .confira {
     background-color: var(--branco);
     width: 70%;
-    margin: 45% auto;
+    margin: 45px auto;
     display: flex;
     justify-content: center;
     border-radius: 20pc;
@@ -84,5 +84,5 @@ header h1 {
     transform: rotate(332deg);
     position: absolute;
     right: 12%;
-    top: 15pc;
+    top: 60%;
 }
