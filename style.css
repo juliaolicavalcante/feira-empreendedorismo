@@ -96,14 +96,14 @@ header h1 {
 
 .profissoes1{
     background-color: var(--cor--fundo--profissao1);
-    width:100px;
-    height: 100px;
+    width: 85%;
+    padding: 50px;
     border-radius: 20px;
 }
 
 .profissoes2{
     background-color: var(--cor--fundo--profissao2);
-    width:100px;
-    height: 100px;
+    width: 85%;
+    padding: 50px;
     border-radius: 20px;
 }
