@@ -11,7 +11,8 @@
 }
 body{
     background-color: var(--fundo);
-    font-family: "Open Sans", sans-serif;}
+    font-family: "Open Sans", sans-serif;
+}
 header{
     display: grid;
     grid-template-columns: 19% 61% 5% 15%;
@@ -46,6 +47,8 @@ header button{
     border: none;
     cursor: pointer;
     font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    
 }
 
 header h1{
