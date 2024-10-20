@@ -26,6 +26,14 @@ header img{
     margin-left: 15px;
 }
 
-header h3{
-
+header button{
+    width: 80%;
+    height: 80px;
+    background-color: #8b5c2f;
+    color: #fff;
+    margin-top: 29px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
 }
