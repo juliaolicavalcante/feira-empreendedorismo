@@ -11,8 +11,7 @@
 }
 body{
     background-color: var(--fundo);
-    font-family: ;
-}
+    font-family: "Open Sans", sans-serif;}
 header{
     display: grid;
     grid-template-columns: 19% 61% 5% 15%;
