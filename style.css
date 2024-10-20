@@ -7,7 +7,7 @@ body{
 }
 header{
     display: grid;
-    grid-template-columns: 18% 61% 5% 15%;
+    grid-template-columns: 19% 61% 5% 15%;
     align-items: center;
 }
 
