@@ -36,7 +36,7 @@ header button{
     width: 80%;
     height: 50px;
     background-color: #8b5c2f;
-    color: #fff;
+    color: var(--letra);
     border-radius: 20px;
     border: none;
     cursor: pointer;
