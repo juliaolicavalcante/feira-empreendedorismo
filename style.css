@@ -91,4 +91,5 @@ header h1 {
 
 .profissoes{
     background-color: var(--cor--fundo--profissao1);
+    width: 85%;
 }
