@@ -28,10 +28,9 @@ header img{
 
 header button{
     width: 80%;
-    height: 20px;
+    height: 40px;
     background-color: #8b5c2f;
     color: #fff;
-    margin-top: 29px;
     border-radius: 20px;
     border: none;
     cursor: pointer;
