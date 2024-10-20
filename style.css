@@ -60,6 +60,10 @@ header h1{
 
 .confira{
     background-color: var(--branco);
-    width: 75%;
-    text-align: center;
+    width: 70%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20pc;
+    padding: 15px;
 }
