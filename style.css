@@ -13,6 +13,7 @@ header{
     display: grid;
     grid-template-columns: 19% 61% 5% 15%;
     align-items: center;
+    color: var(--letra);
 }
 
 .abelha img{
