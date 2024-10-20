@@ -98,13 +98,13 @@ header h1 {
 .profissoes1{
     background-color: var(--cor--fundo--profissao1);
     width: 85%;
-    padding: 50px;
+    padding: 50px 0;
     border-radius: 20px;
 }
 
 .profissoes2{
     background-color: var(--cor--fundo--profissao2);
     width: 85%;
-    padding: 50px;
+    padding: 50px 0;
     border-radius: 20px;
 }
