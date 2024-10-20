@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --letra:#332920;
+    
+}
 body{
     background-color: #af7754;
 }
@@ -30,13 +34,13 @@ header img{
 
 header button{
     width: 80%;
-    height: 40px;
+    height: 50px;
     background-color: #8b5c2f;
     color: #fff;
     border-radius: 20px;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 header h1{
