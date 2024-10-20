@@ -5,7 +5,8 @@
     padding: 0;
 }
 :root{
-    --letra:#332920;
+    --letra--header:#332920;
+    --letra--confira:#332920;
     --fundo:#af7754;
     --cor--botao:#7a533b;
     --branco:#fff;
@@ -19,7 +20,7 @@ header{
     display: grid;
     grid-template-columns: 19% 61% 5% 15%;
     align-items: center;
-    color: var(--letra);
+    color: var(--letra--header);
 }
 
 .abelha img{
@@ -45,7 +46,7 @@ header button{
     height: 50px;
     background-color:var(--cor--botao);
     border-radius: 20px;
-    color: var(--letra);
+    color: var(--letra--header);
     font-weight: bold;
     border: none;
     cursor: pointer;
