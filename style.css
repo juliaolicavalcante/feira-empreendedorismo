@@ -92,6 +92,7 @@ header h1 {
 .profissao{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 .profissoes1{
