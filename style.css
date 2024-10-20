@@ -15,7 +15,6 @@ header{
     height: 50px;
 }
 .abelha{
-    background-color: #7a533b;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -24,4 +23,8 @@ header{
 
 header img{
     margin-left: 15px;
+}
+
+header h3{
+    
 }
