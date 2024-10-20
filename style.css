@@ -19,6 +19,7 @@ header{
     display: flex;
     align-items: center;
     width: 60px;
+    transform: rotate(320deg);
 }
 
 header img{
