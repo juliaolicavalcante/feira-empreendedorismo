@@ -42,6 +42,7 @@ header button{
     background-color: #8b5c2f;
     border-radius: 20px;
     color: var(--letra);
+    font-weight: bold;
     border: none;
     cursor: pointer;
     font-size: 22px;
