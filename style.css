@@ -10,8 +10,8 @@
     --cor--botao: #7a533b;
     --branco: #fff;
     --preto: #000;
-    --cor--fundo--profissao1:#ba9b29;
-    --cor--fundo--profissao2:#edc742;
+    --cor--fundo--profissao1: #ba9b29;
+    --cor--fundo--profissao2: #edc742;
 }
 
 body {
@@ -89,13 +89,13 @@ header h1 {
     top: 34%;
 }
 
-.profissao{
+.profissao {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
 }
 
-.profissao a{
+.profissao a {
     text-decoration: none;
     color: var(--letra--confira);
     display: flex;
@@ -103,50 +103,117 @@ header h1 {
 
 }
 
-.profissoes1{
-    width: 75%; /* Largura do retângulo */
-    height: 300px; /* Altura do retângulo */
-    background-color: var(--cor--fundo--profissao1); /* Cor de fundo do retângulo */
+.profissoes1 {
+    width: 75%;
+    /* Largura do retângulo */
+    height: 300px;
+    /* Altura do retângulo */
+    background-color: var(--cor--fundo--profissao1);
+    /* Cor de fundo do retângulo */
     display: flex;
-    flex-direction: column; /* Para organizar os itens na vertical */
+    flex-direction: column;
+    /* Para organizar os itens na vertical */
     justify-content: center;
     align-items: center;
-    border-radius: 20px; /* Bordas arredondadas */
-    padding: 20px; /* Espaçamento interno */
+    border-radius: 20px;
+    /* Bordas arredondadas */
+    padding: 20px;
+    /* Espaçamento interno */
     margin-top: 30px;
     margin-bottom: 60px;
 }
 
-.profissoes2{
-    width: 75%; /* Largura do retângulo */
-    height: 300px; /* Altura do retângulo */
-    background-color: var(--cor--fundo--profissao2); /* Cor de fundo do retângulo */
+.profissoes2 {
+    width: 75%;
+    /* Largura do retângulo */
+    height: 300px;
+    /* Altura do retângulo */
+    background-color: var(--cor--fundo--profissao2);
+    /* Cor de fundo do retângulo */
     display: flex;
-    flex-direction: column; /* Para organizar os itens na vertical */
+    flex-direction: column;
+    /* Para organizar os itens na vertical */
     justify-content: center;
     align-items: center;
-    border-radius: 20px; /* Bordas arredondadas */
-    padding: 20px; /* Espaçamento interno */
+    border-radius: 20px;
+    /* Bordas arredondadas */
+    padding: 20px;
+    /* Espaçamento interno */
     margin-top: 30px;
-    margin-bottom: 60px ;
+    margin-bottom: 60px;
 }
 
-.profissoes1 img{
-    max-width: 100%;
-    max-height: 60%;
-    margin-top: 10px;
-    border-radius: 20px;
-}
-.profissoes2 img{
+.profissoes1 img {
     max-width: 100%;
     max-height: 60%;
     margin-top: 10px;
     border-radius: 20px;
 }
 
-.profissoes1 h1{
+.profissoes2 img {
+    max-width: 100%;
+    max-height: 60%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.profissoes1 h1 {
     margin-top: 15px;
 }
-.profissoes2 h1{
+
+.profissoes2 h1 {
     margin-top: 15px;
+}
+
+.card {
+    width: 200px;
+    background-color: #F2C94C;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.card .nome,
+.card .especialidades {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card .especialidades {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #F0F0F0;
+}
+
+.bee {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
