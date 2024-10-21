@@ -159,7 +159,7 @@ header h1 {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     display: grid;
     grid-template-rows: auto auto 1fr auto;
-    gap: 20px; /* Aumentando o espaçamento entre os elementos */
+    gap: 50px; /* Aumentando o espaçamento entre os elementos */
     position: relative;
 }
 
