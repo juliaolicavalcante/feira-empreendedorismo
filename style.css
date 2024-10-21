@@ -125,6 +125,12 @@ header h1 {
     margin-top: 10px;
     border-radius: 20px;
 }
+.profissoes2 img{
+    max-width: 100%;
+    max-height: 60%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
 
 .profissoes1 h1{
     margin-top: 15px;
