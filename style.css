@@ -98,6 +98,9 @@ header h1 {
 .profissao a{
     text-decoration: none;
     color: var(--letra--confira);
+    display: flex;
+    justify-content: center;
+
 }
 
 .profissoes1{
