@@ -217,3 +217,9 @@ header h1 {
     bottom: 10px;
     left: 10px;
 }
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    
+}
