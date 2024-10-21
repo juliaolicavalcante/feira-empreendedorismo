@@ -96,7 +96,7 @@ header h1 {
 }
 
 .profissoes1{
-    width: 300px; /* Largura do retângulo */
+    width: 85%; /* Largura do retângulo */
     height: 400px; /* Altura do retângulo */
     background-color: var(--cor--fundo--profissao1); /* Cor de fundo do retângulo */
     display: flex;
