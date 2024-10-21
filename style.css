@@ -113,6 +113,18 @@ header h1 {
 }
 
 .profissoes2{
+    width: 75%; /* Largura do retângulo */
+    height: 300px; /* Altura do retângulo */
+    background-color: var(--cor--fundo--profissao1); /* Cor de fundo do retângulo */
+    display: flex;
+    flex-direction: column; /* Para organizar os itens na vertical */
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.profissoes2{
     background-color: var(--cor--fundo--profissao2);
     width: 75%;
     padding: 150px 0;
@@ -133,5 +145,8 @@ header h1 {
 }
 
 .profissoes1 h1{
+    margin-top: 15px;
+}
+.profissoes2 h1{
     margin-top: 15px;
 }
