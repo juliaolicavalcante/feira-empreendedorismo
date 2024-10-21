@@ -96,10 +96,15 @@ header h1 {
 }
 
 .profissoes1{
-    background-color: var(--cor--fundo--profissao1);
-    width: 85%;
-    padding: 150px 0;
-    border-radius: 20px;
+    width: 300px; /* Largura do retângulo */
+    height: 400px; /* Altura do retângulo */
+    background-color: var(--cor--fundo--profissao1); /* Cor de fundo do retângulo */
+    display: flex;
+    flex-direction: column; /* Para organizar os itens na vertical */
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
 }
 
 .profissoes2{
