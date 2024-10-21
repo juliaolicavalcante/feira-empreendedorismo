@@ -152,50 +152,50 @@ header h1 {
 }
 
 .card {
-    width: 250px;
+    width: 350px; /* Aumentando a largura do cartão */
     background-color: #F2C94C;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 15px;
+    padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     display: grid;
     grid-template-rows: auto auto 1fr auto;
-    gap: 10px;
+    gap: 20px; /* Aumentando o espaçamento entre os elementos */
     position: relative;
 }
 
 .header {
     display: grid;
-    grid-template-columns: 50px auto;
-    gap: 10px;
+    grid-template-columns: 80px auto; /* Aumentando a área da foto */
+    gap: 15px;
     align-items: center;
 }
 
 .header img {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #000;
+    width: 80px; /* Foto maior */
+    height: 80px;
+    border: 2px solid #000; /* Borda mais visível */
 }
 
 .header .nome {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20px; /* Aumentando o tamanho do texto do nome */
 }
 
 .especialidades {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px; /* Aumentando o tamanho das especialidades */
     text-align: left;
 }
 
 .button {
     background-color: #fff;
     color: #000;
-    padding: 10px 15px;
+    padding: 15px 20px; /* Botão maior */
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
+    font-size: 16px; /* Texto maior no botão */
     font-weight: bold;
     cursor: pointer;
-    font-size: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -203,7 +203,6 @@ header h1 {
 .button:hover {
     background-color: #F0F0F0;
 }
-
 .tudo{
     display: flex;
     justify-content: space-evenly;    
