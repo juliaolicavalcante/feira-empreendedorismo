@@ -114,8 +114,8 @@ header h1 {
     border-radius: 20px;
 }
 
-.profissoes1 div{
-    background-image: url(https://alow.online/wp-content/uploads/2022/03/baba-cuidando-do-bebe.webp);
-    height: 100px;
-    width: 100px;
+.profissoes1 img{
+    max-width: 100%; /* Imagem não ultrapassa a largura do retângulo */
+    max-height: 60%; /* Limita a altura da imagem */
+    margin-top: 10px; /
 }
