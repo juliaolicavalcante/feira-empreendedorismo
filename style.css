@@ -113,7 +113,8 @@ header h1 {
     align-items: center;
     border-radius: 20px; /* Bordas arredondadas */
     padding: 20px; /* Espaçamento interno */
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .profissoes2{
@@ -126,7 +127,8 @@ header h1 {
     align-items: center;
     border-radius: 20px; /* Bordas arredondadas */
     padding: 20px; /* Espaçamento interno */
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px ;
 }
 
 .profissoes1 img{
