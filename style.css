@@ -202,3 +202,8 @@ header h1 {
 .button:hover {
     background-color: #F0F0F0;
 }
+
+.tudo{
+    display: flex;
+    justify-content: space-evenly;    
+}
