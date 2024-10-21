@@ -95,6 +95,11 @@ header h1 {
     justify-items: center;
 }
 
+.profissao a{
+    text-decoration: none;
+    color: var(--letra--confira);
+}
+
 .profissoes1{
     width: 75%; /* Largura do retângulo */
     height: 300px; /* Altura do retângulo */
