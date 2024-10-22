@@ -224,5 +224,7 @@ header h1 {
 .sobre-nos{
     background-color: var(--branco);
     padding: 100px;    
-    text-align: center;
+    text-align: justify;
+    margin: 20px;
+    border-radius: 20px;
 }
