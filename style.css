@@ -56,7 +56,6 @@ header button {
     cursor: pointer;
     font-size: 22px;
     font-family: "Open Sans", sans-serif;
-
 }
 
 header h1 {
@@ -208,4 +207,10 @@ header h1 {
     display: flex;
     justify-content: space-evenly;    
     margin: 50px 0;
+}
+
+.profissao-nome{
+    color: var(--letra--confira);
+    font-size: 35px;
+    text-align: center;
 }
