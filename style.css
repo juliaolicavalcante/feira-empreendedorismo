@@ -232,3 +232,10 @@ header h1 {
 .sobre-nos h3{
     font-size: 22px;
 }
+
+.abelha4{
+    width: 80px;
+    transform: rotate(64deg);
+    position: absolute;
+    left: 15%;
+}
