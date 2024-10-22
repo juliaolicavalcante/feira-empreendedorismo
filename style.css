@@ -63,6 +63,19 @@ header h1 {
     font-size: 60px;
 }
 
+header button{
+    background-color: var(--letra--header) ;
+    color: var(--cor--botao);
+    padding: 15px 20px; /* Botão maior */
+    border: none;
+    border-radius: 25px;
+    font-size: 16px; /* Texto maior no botão */
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
 .confira {
     background-color: var(--branco);
     width: 70%;
