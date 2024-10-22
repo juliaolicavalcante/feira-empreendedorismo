@@ -220,3 +220,8 @@ header h1 {
     color: var(--letra--confira);
     text-align: center;
 }
+
+.sobre-nos{
+    background-color: var(--branco);
+    width: 90;
+}
