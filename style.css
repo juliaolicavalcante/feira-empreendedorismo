@@ -223,5 +223,6 @@ header h1 {
 
 .sobre-nos{
     background-color: var(--branco);
-    width: 90;
+    padding: 100px;    
+    text-align: center;
 }
