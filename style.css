@@ -240,7 +240,8 @@ header h1 {
     left: 10%;
 }.abelha5{
     width: 100px;
-    transform: rotate(64deg);
+    transform: rotate(326deg);
     position: absolute;
-    left: 15%;
+    right: 15%;
+    bottom: 2%;
 }
